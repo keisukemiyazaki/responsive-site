@@ -56,6 +56,14 @@ body {
   
 /* Contents
 ------------------------------------------------------------*/
+header .header-box {
+  background-image: url("../images/top_image.jpg");
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
 section {
   padding: 20px; 
 }
@@ -107,24 +115,28 @@ section .container {
     font-weight: bold;
 }
 
-#footer{
-  background-color: #000000;
-  padding: 40px;
+footer
+{
+    padding: 40px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
 }
 
-#footer p {
+footer p{
     color: #ffffff;
     font-size: 3.2rem;
-    font-weight: bold;
-    padding-bottom: 30px
+    /*font-weight: bold;*/
+    padding-bottom: 30px;
 }
 
-#footer .contact-button{
-  padding: 10px;
-  background-color: #ffffff;
-  margin: 0 auto;
-  width: 30%;
-  -moz-border-radius: 4px;
+footer .contact-button
+{
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 30%;
+    -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
 }
