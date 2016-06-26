@@ -58,7 +58,7 @@ body {
 ------------------------------------------------------------*/
 header .header-box {
   background-image: url("../images/top_image.jpg");
-  /*height: 650px;*/
+  height: 650px;
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -142,24 +142,34 @@ footer .contact-button
 }
 
 /* ウィンドウ幅が769px以上の場合に適用するCSS */
-@media screen and ( min-width:769px ){
+@media screen and (min-width:769px){
 /* messages
 ------------------------------------------------------------*/
 #messages .container {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 40px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 40px;
 }
 
 #messages .message-box {
-    margin: 0 10px; 
+	margin: 0 10px; 
 }
 
 #messages .message-box:last-child {
-    margin-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+}
+
+/* ウィンドウ幅が550px以下の場合に適用するCSS */
+@media screen and (max-width:550px){
+/* messages
+------------------------------------------------------------*/
+header .header-box {
+    height: 400px;
 }
 
 }
